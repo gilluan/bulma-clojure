@@ -1,0 +1,813 @@
+Notifying browser that CSS file changed: resources/public/css/bulma.min.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:18  column:31  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/app-state[0m
+
+  [36m14[0m  [36m;; home[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(defn input-teste [][0m
+  [36m17[0m  [36m  [:input {:type "text"[0m
+  [33m18[0m  [1m           :on-change #(swap! app-state assoc :password (-> % .-target .-value))}])[0m
+  [0m  [0m  [33m                              ^--- Use of undeclared Var nomos-web.views/app-state[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn home-panel [][0m
+  [36m21[0m  [36m  (let [name (re-frame/subscribe [::subs/name])][0m
+  [36m22[0m  [36m    [:div[0m
+  [36m23[0m  [36m     [:h1 (str "Hello from " @name ". This is the Home Page.")][0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.311 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.978 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.151 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.055 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.008 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.29 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:43  column:7  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/password-color[0m
+
+  [36m39[0m  [36m(let [name (re-frame/subscribe [::subs/name])][0m
+  [36m40[0m  [36m  [:div[0m
+  [36m41[0m  [36m   [:h1 (str "Hello from " @name ". This is the Home Page.")][0m
+  [36m42[0m  [36m   [input-teste][0m
+  [33m43[0m  [1m   (password-color (@app-state :password))[0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var nomos-web.views/password-color[0m
+  [36m44[0m  [36m   [:div[0m
+  [36m45[0m  [36m    [:a {:href "#/about"}[0m
+  [36m46[0m  [36m     "go to About Page"]][0m
+  [36m47[0m  [36m   ]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.317 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:43  column:8  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/password-color[0m
+
+  [36m39[0m  [36m(let [name (re-frame/subscribe [::subs/name])][0m
+  [36m40[0m  [36m  [:div[0m
+  [36m41[0m  [36m   [:h1 (str "Hello from " @name ". This is the Home Page.")][0m
+  [36m42[0m  [36m   [input-teste][0m
+  [33m43[0m  [1m   ((password-color (@app-state :password)))[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var nomos-web.views/password-color[0m
+  [36m44[0m  [36m   [:div[0m
+  [36m45[0m  [36m    [:a {:href "#/about"}[0m
+  [36m46[0m  [36m     "go to About Page"]][0m
+  [36m47[0m  [36m   ]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.944 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:43  column:12  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/password-color[0m
+
+  [36m39[0m  [36m(let [name (re-frame/subscribe [::subs/name])][0m
+  [36m40[0m  [36m  [:div[0m
+  [36m41[0m  [36m   [:h1 (str "Hello from " @name ". This is the Home Page.")][0m
+  [36m42[0m  [36m   [input-teste][0m
+  [33m43[0m  [1m   [:h3 (password-color (@app-state :password))][0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var nomos-web.views/password-color[0m
+  [36m44[0m  [36m   [:div[0m
+  [36m45[0m  [36m    [:a {:href "#/about"}[0m
+  [36m46[0m  [36m     "go to About Page"]][0m
+  [36m47[0m  [36m   ]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.922 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.82 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.839 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.064 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.9 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.856 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.242 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.047 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.249 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.165 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.889 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.179 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.924 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.067 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.878 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.229 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.172 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.874 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.23 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.159 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.921 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.053 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.895 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.928 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.82 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.91 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.235 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.289 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:37  column:6  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/input[0m
+
+  [36m33[0m  [36m(defn input-control [state][0m
+  [36m34[0m  [36m  [:div.field[0m
+  [36m35[0m  [36m   [:label.label (:label state)][0m
+  [36m36[0m  [36m   [:div.control[0m
+  [33m37[0m  [1m    [input]][0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var nomos-web.views/input[0m
+  [36m38[0m  [36m   [:p.help[0m
+  [36m39[0m  [36m      {:class (teste-collor (@app-state :password))}[0m
+  [36m40[0m  [36m      (if (teste-is-valid? (@app-state :password)) "É valido" "Não válido")]])[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m(defn input-teste [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.344 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.056 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.331 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.796 seconds.[0m
+[36m----  Could not Read  src/cljs/nomos_web/views.cljs   line:37 ----[0m
+
+  [1m/Users/gilluan/workspace/nomos-web/src/cljs/nomos_web/views.cljs [line 37, col 23] Invalid keyword: :.[0m
+
+  [36m35[0m  [36m[:label.label (:label state)][0m
+  [36m36[0m  [36m[:div.control[0m
+  [33m37[0m  [1m [(:input state) (:)]][0m
+  [0m  [0m  [33m /Users/gilluan/workspace/nomos-web/src/cljs/nomos_web/views.cljs [line 37, col 23] Invalid keyword: :.[0m
+  [36m38[0m  [36m[:p.help[0m
+  [36m39[0m  [36m   {:class (teste-collor (@app-state :password))}[0m
+  [36m40[0m  [36m   (if (teste-is-valid? (@app-state :password)) "É valido" "Não válido")]])[0m
+
+[36m----  Reader Error : Please see src/cljs/nomos_web/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.245 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.08 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.991 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.759 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.983 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.865 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.063 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:37  column:23  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/attr[0m
+
+  [36m33[0m  [36m(defn input-control [state][0m
+  [36m34[0m  [36m  [:div.field[0m
+  [36m35[0m  [36m   [:label.label (:label state)][0m
+  [36m36[0m  [36m   [:div.control[0m
+  [33m37[0m  [1m    [[(:input state)] attr]][0m
+  [0m  [0m  [33m                      ^--- Use of undeclared Var nomos-web.views/attr[0m
+  [36m38[0m  [36m   [:p.help[0m
+  [36m39[0m  [36m      {:class (teste-collor (@app-state :password))}[0m
+  [36m40[0m  [36m      (if (teste-is-valid? (@app-state :password)) "É valido" "Não válido")]])[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m(defn input-teste [attr][0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.404 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.888 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.91 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.0 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.103 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.92 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.884 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.875 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.927 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.086 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.123 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.185 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.063 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.114 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.056 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.861 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.889 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.907 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.855 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.942 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.847 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.951 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.08 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.849 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.176 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.901 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.194 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.177 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.017 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.917 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.863 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.15 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.179 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.946 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.082 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.98 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.824 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:25  column:10  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/teste-is-valid?[0m
+
+  [36m21[0m  [36m(defn teste-collor[0m
+  [36m22[0m  [36m  [password][0m
+  [36m23[0m  [36m  (let [valid-color "is-info"[0m
+  [36m24[0m  [36m        invalid-color "is-danger"][0m
+  [33m25[0m  [1m    (if (teste-is-valid? password)[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var nomos-web.views/teste-is-valid?[0m
+  [36m26[0m  [36m      valid-color[0m
+  [36m27[0m  [36m      invalid-color)))[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn input-control [state][0m
+  [36m30[0m  [36m  [:div.field[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:63  column:35  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/teste-is-valid?[0m
+
+  [36m59[0m  [36m   [input-control {:input input-text[0m
+  [36m60[0m  [36m                   :label "Password"[0m
+  [36m61[0m  [36m                   :attr :password[0m
+  [36m62[0m  [36m                   :estado app-state[0m
+  [33m63[0m  [1m                   :fn-validation teste-is-valid?}]])[0m
+  [0m  [0m  [33m                                  ^--- Use of undeclared Var nomos-web.views/teste-is-valid?[0m
+  [36m64[0m  [36m[0m
+  [36m65[0m  [36m[0m
+  [36m66[0m  [36m(defn home-panel [][0m
+  [36m67[0m  [36m  (let [name (re-frame/subscribe [::subs/name])][0m
+  [36m68[0m  [36m    [:div[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.964 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:25  column:10  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/teste-is-valid?[0m
+
+  [36m21[0m  [36m(defn teste-collor[0m
+  [36m22[0m  [36m  [password][0m
+  [36m23[0m  [36m  (let [valid-color "is-info"[0m
+  [36m24[0m  [36m        invalid-color "is-danger"][0m
+  [33m25[0m  [1m    (if (teste-is-valid? password)[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var nomos-web.views/teste-is-valid?[0m
+  [36m26[0m  [36m      valid-color[0m
+  [36m27[0m  [36m      invalid-color)))[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn input-control [state][0m
+  [36m30[0m  [36m  [:div.field[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:63  column:35  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/is-password-valid?[0m
+
+  [36m59[0m  [36m   [input-control {:input input-text[0m
+  [36m60[0m  [36m                   :label "Password"[0m
+  [36m61[0m  [36m                   :attr :password[0m
+  [36m62[0m  [36m                   :estado app-state[0m
+  [33m63[0m  [1m                   :fn-validation is-password-valid?}]])[0m
+  [0m  [0m  [33m                                  ^--- Use of undeclared Var nomos-web.views/is-password-valid?[0m
+  [36m64[0m  [36m[0m
+  [36m65[0m  [36m[0m
+  [36m66[0m  [36m(defn home-panel [][0m
+  [36m67[0m  [36m  (let [name (re-frame/subscribe [::subs/name])][0m
+  [36m68[0m  [36m    [:div[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.062 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:25  column:10  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/teste-is-valid?[0m
+
+  [36m21[0m  [36m(defn teste-collor[0m
+  [36m22[0m  [36m  [password][0m
+  [36m23[0m  [36m  (let [valid-color "is-info"[0m
+  [36m24[0m  [36m        invalid-color "is-danger"][0m
+  [33m25[0m  [1m    (if (teste-is-valid? password)[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var nomos-web.views/teste-is-valid?[0m
+  [36m26[0m  [36m      valid-color[0m
+  [36m27[0m  [36m      invalid-color)))[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn input-control [state][0m
+  [36m30[0m  [36m  [:div.field[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.266 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:35  column:15  ----[0m
+
+  [1mWrong number of args (1) passed to nomos-web.views/teste-collor[0m
+
+  [36m31[0m  [36m   [:label.label (:label state)][0m
+  [36m32[0m  [36m   [:div.control[0m
+  [36m33[0m  [36m    [(:input state) (:attr state) (:estado state)]][0m
+  [36m34[0m  [36m   [:p.help[0m
+  [33m35[0m  [1m      {:class (teste-collor (@(:estado state) (:attr state)))}[0m
+  [0m  [0m  [33m              ^--- Wrong number of args (1) passed to nomos-web.views/teste-collor[0m
+  [36m36[0m  [36m      (if ((:fn-validation state) (@(:estado state) (:attr state))) "É valido" "Não válido")]])[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(defn input-text [attr estado][0m
+  [36m39[0m  [36m  [:input.input {:type "text"[0m
+  [36m40[0m  [36m                 :class (teste-collor (attr @estado))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:40  column:25  ----[0m
+
+  [1mWrong number of args (1) passed to nomos-web.views/teste-collor[0m
+
+  [36m36[0m  [36m      (if ((:fn-validation state) (@(:estado state) (:attr state))) "É valido" "Não válido")]])[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(defn input-text [attr estado][0m
+  [36m39[0m  [36m  [:input.input {:type "text"[0m
+  [33m40[0m  [1m                 :class (teste-collor (attr @estado))[0m
+  [0m  [0m  [33m                        ^--- Wrong number of args (1) passed to nomos-web.views/teste-collor[0m
+  [36m41[0m  [36m                 :on-change #(swap! estado assoc attr (-> % .-target .-value))}])[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m;;TODO: finalizaer o modelo[0m
+  [36m44[0m  [36m;; este eh apenas a ideia de como vai ficar os formulários de input[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.975 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:40  column:25  ----[0m
+
+  [1mWrong number of args (1) passed to nomos-web.views/teste-collor[0m
+
+  [36m36[0m  [36m      (if ((:fn-validation state) (@(:estado state) (:attr state))) "É valido" "Não válido")]])[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(defn input-text [attr estado][0m
+  [36m39[0m  [36m  [:input.input {:type "text"[0m
+  [33m40[0m  [1m                 :class (teste-collor (attr @estado))[0m
+  [0m  [0m  [33m                        ^--- Wrong number of args (1) passed to nomos-web.views/teste-collor[0m
+  [36m41[0m  [36m                 :on-change #(swap! estado assoc attr (-> % .-target .-value))}])[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m;;TODO: finalizaer o modelo[0m
+  [36m44[0m  [36m;; este eh apenas a ideia de como vai ficar os formulários de input[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.076 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:40  column:25  ----[0m
+
+  [1mWrong number of args (1) passed to nomos-web.views/teste-collor[0m
+
+  [36m36[0m  [36m      (if ((:fn-validation state) (@(:estado state) (:attr state))) "É valido" "Não válido")]])[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(defn input-text [attr estado][0m
+  [36m39[0m  [36m  [:input.input {:type "text"[0m
+  [33m40[0m  [1m                 :class (teste-collor (attr @estado))[0m
+  [0m  [0m  [33m                        ^--- Wrong number of args (1) passed to nomos-web.views/teste-collor[0m
+  [36m41[0m  [36m                 :on-change #(swap! estado assoc attr (-> % .-target .-value))}])[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m;;TODO: finalizaer o modelo[0m
+  [36m44[0m  [36m;; este eh apenas a ideia de como vai ficar os formulários de input[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.007 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:40  column:25  ----[0m
+
+  [1mWrong number of args (1) passed to nomos-web.views/teste-collor[0m
+
+  [36m36[0m  [36m      (if ((:fn-validation state) (@(:estado state) (:attr state))) "É valido" "Não válido")]])[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(defn input-text [attr estado][0m
+  [36m39[0m  [36m  [:input.input {:type "text"[0m
+  [33m40[0m  [1m                 :class (teste-collor (attr @estado))[0m
+  [0m  [0m  [33m                        ^--- Wrong number of args (1) passed to nomos-web.views/teste-collor[0m
+  [36m41[0m  [36m                 :on-change #(swap! estado assoc attr (-> % .-target .-value))}])[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m;;TODO: finalizaer o modelo[0m
+  [36m44[0m  [36m;; este eh apenas a ideia de como vai ficar os formulários de input[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.976 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.808 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.921 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.896 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.874 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:40  column:25  ----[0m
+
+  [1mWrong number of args (1) passed to nomos-web.views/teste-collor[0m
+
+  [36m36[0m  [36m      (if ((:fn-validation state) (@(:estado state) (:attr state))) "É valido" "Não válido")]])[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(defn input-text [attr estado callback][0m
+  [36m39[0m  [36m  [:input.input {:type "text"[0m
+  [33m40[0m  [1m                 :class (teste-collor (attr @estado))[0m
+  [0m  [0m  [33m                        ^--- Wrong number of args (1) passed to nomos-web.views/teste-collor[0m
+  [36m41[0m  [36m                 :on-change #(swap! estado assoc attr (-> % .-target .-value))}])[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m;;TODO: finalizaer o modelo[0m
+  [36m44[0m  [36m;; este eh apenas a ideia de como vai ficar os formulários de input[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.931 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.958 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.943 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.039 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.211 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.892 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.872 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.884 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.878 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.876 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.901 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.874 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.938 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.909 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.878 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.901 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.855 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.904 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.913 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:81  column:21  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/app-state[0m
+
+  [36m77[0m  [36m[:div[0m
+  [36m78[0m  [36m [:h1 "Formulario de exemplo"][0m
+  [36m79[0m  [36m [:br][0m
+  [36m80[0m  [36m [:br][0m
+  [33m81[0m  [1m [:pre.json {} @app-state][0m
+  [0m  [0m  [33m                ^--- Use of undeclared Var nomos-web.views/app-state[0m
+  [36m82[0m  [36m [form-teste][0m
+  [36m83[0m  [36m [:div[0m
+  [36m84[0m  [36m  [:a {:href "#/about"}[0m
+  [36m85[0m  [36m   "go to About Page"]][0m
+  [36m86[0m  [36m ]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.943 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.058 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.055 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.013 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.862 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.918 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.894 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.879 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.899 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.887 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.841 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.17 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.925 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.924 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.068 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.894 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.372 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.006 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:77  column:28  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/form-state[0m
+
+  [36m73[0m  [36m[input-control {:input input-text[0m
+  [36m74[0m  [36m                :type "text"[0m
+  [36m75[0m  [36m                :label "Nome"[0m
+  [36m76[0m  [36m                :attr :name[0m
+  [33m77[0m  [1m                :estado form-state[0m
+  [0m  [0m  [33m                        ^--- Use of undeclared Var nomos-web.views/form-state[0m
+  [36m78[0m  [36m                :fn-validation #(> (count %) 10)[0m
+  [36m79[0m  [36m                }][0m
+  [36m80[0m  [36m[input-control {:input input-text[0m
+  [36m81[0m  [36m                :type "password"[0m
+  [36m82[0m  [36m                :label "Password"[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:84  column:28  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/form-state[0m
+
+  [36m80[0m  [36m   [input-control {:input input-text[0m
+  [36m81[0m  [36m                   :type "password"[0m
+  [36m82[0m  [36m                   :label "Password"[0m
+  [36m83[0m  [36m                   :attr :password[0m
+  [33m84[0m  [1m                   :estado form-state[0m
+  [0m  [0m  [33m                           ^--- Use of undeclared Var nomos-web.views/form-state[0m
+  [36m85[0m  [36m                   :fn-validation is-password-valid?}]])[0m
+  [36m86[0m  [36m[0m
+  [36m87[0m  [36m;;################# formulario de exemplo ###################[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.086 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:77  column:28  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/form-state[0m
+
+  [36m73[0m  [36m[input-control {:input input-text[0m
+  [36m74[0m  [36m                :type "text"[0m
+  [36m75[0m  [36m                :label "Nome"[0m
+  [36m76[0m  [36m                :attr :name[0m
+  [33m77[0m  [1m                :estado form-state[0m
+  [0m  [0m  [33m                        ^--- Use of undeclared Var nomos-web.views/form-state[0m
+  [36m78[0m  [36m                :fn-validation #(> (count %) 10)[0m
+  [36m79[0m  [36m                }][0m
+  [36m80[0m  [36m[input-control {:input input-text[0m
+  [36m81[0m  [36m                :type "password"[0m
+  [36m82[0m  [36m                :label "Password"[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/nomos_web/views.cljs   line:84  column:28  ----[0m
+
+  [1mUse of undeclared Var nomos-web.views/form-state[0m
+
+  [36m80[0m  [36m   [input-control {:input input-text[0m
+  [36m81[0m  [36m                   :type "password"[0m
+  [36m82[0m  [36m                   :label "Password"[0m
+  [36m83[0m  [36m                   :attr :password[0m
+  [33m84[0m  [1m                   :estado form-state[0m
+  [0m  [0m  [33m                           ^--- Use of undeclared Var nomos-web.views/form-state[0m
+  [36m85[0m  [36m                   :fn-validation is-password-valid?}]])[0m
+  [36m86[0m  [36m[0m
+  [36m87[0m  [36m;;################# formulario de exemplo ###################[0m
+
+[36m----  Compiler Warning : Please see src/cljs/nomos_web/views.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.115 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.83 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.289 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.845 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.065 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.133 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.326 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.297 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.139 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.866 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.257 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/nomos_web/views.js
